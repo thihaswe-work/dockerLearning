@@ -1,5 +1,7 @@
 this is the documentation for the docker learning repo.
 
+docker ps -a
+
 docker pull {container name}:{tag}
 
 docker start {id} or {name}
