@@ -41,6 +41,8 @@ docker run --name {running_name} -d -p {host_port:container_port} {container_nam
 `-t` or `--tag` means tag
 </br>
 `-p` or `--port` means port
+</br>
+`--name` means gives name to the container
 
 
 
