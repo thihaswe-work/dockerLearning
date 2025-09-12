@@ -36,4 +36,8 @@ docker run --name {running_name} -d -p {host_port:container_port} {container_nam
 ```
 
 
+`-d` or  `--detach` means detach mode
+`-t` or `--tag` means tag
+
+
 
