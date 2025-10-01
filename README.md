@@ -15,6 +15,16 @@ docker images
 docker ps -a
 ```
 
+🔹 Remove Containers
+```bash
+docker rm {container_name or container_id}
+```
+
+🔹Remove Images
+```bash
+docker rmi {repository_name}
+```
+
 🔹 Pull an Image
 ```bash
 docker pull {container_name}:{tag}
