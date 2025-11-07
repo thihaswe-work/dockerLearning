@@ -45,6 +45,21 @@ docker build -t {container_name}:{tag} .
 docker run --name {running_name} -d -p {host_port:container_port} {container_name}
 ```
 
+🔹Build docker-compose.yml
+```bash
+docker-compose build --no-cache{remove previous}
+```
+🔹Run docker-compose.yml
+```bash
+docker-compose up 
+```
+🔹 Down docker-compose.yml
+```bash
+docker-compose down
+```
+
+
+
 
 `-d` or  `--detach` means detach mode
 </br>
