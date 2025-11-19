@@ -78,6 +78,11 @@ docker-compose -f docker-compose.yml or docker-compose.yaml up
 docker-compose -f docker-compose.yml or docker-compose.yaml down
 ```
 
+🔹stop all containers 
+```bash
+docker-compose -f docker-compose.yml or docker-compose.yaml stop
+```
+
 
 🔹Start all containers in the background
 ```bash
