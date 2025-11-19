@@ -6,10 +6,11 @@ This repository is a simple guide to help you learn and practice basic Docker co
 
 ## 📦 Docker Commands
 
-### 🔹 View Images
+ 🔹 View Images
 ```bash
 docker images
 ```
+
 🔹 View Containers
 ```bash
 docker ps -a
@@ -49,10 +50,12 @@ docker run --name {running_name} -d -p {host_port:container_port} {container_nam
 ```bash
 docker-compose build --no-cache{remove previous}
 ```
+
 🔹Run docker-compose.yml
 ```bash
 docker-compose up 
 ```
+
 🔹 Down docker-compose.yml
 ```bash
 docker-compose down
