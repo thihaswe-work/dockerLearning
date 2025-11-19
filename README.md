@@ -58,6 +58,31 @@ docker-compose up
 docker-compose down
 ```
 
+🔹Cleans build cache created by Docker BuildKit.
+```bash
+docker builder prune -a
+```
+
+🔹Cleans everything unused in Docker.
+```bash
+docker system prune -af
+```
+
+🔹 Start all containers 
+```bash
+docker-compose -f docker-compose.yml or docker-compose.yaml up
+```
+
+🔹Start all containers in the background
+```bash
+docker-compose up -d
+```
+
+🔹 Seed the database via the backend container
+```bash
+docker-compose run backend npm run seed
+```
+
 
 
 
