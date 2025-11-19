@@ -73,6 +73,12 @@ docker system prune -af
 docker-compose -f docker-compose.yml or docker-compose.yaml up
 ```
 
+🔹 Down and Remove all containers 
+```bash
+docker-compose -f docker-compose.yml or docker-compose.yaml down
+```
+
+
 🔹Start all containers in the background
 ```bash
 docker-compose up -d
