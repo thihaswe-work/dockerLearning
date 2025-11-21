@@ -106,6 +106,10 @@ docker-compose run backend npm run seed
 </br>
 `-p` or `--port` means port
 </br>
+`-e` for environment variables
+</br>
+`--network` for network
+</br>
 `--name` means gives name to the container
 
 
